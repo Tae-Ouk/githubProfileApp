@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D63768B219E019A539E803 /* Pods_githubProfileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF95CC59619672236AD2C5AE /* Pods_githubProfileApp.framework */; };
 		51D41A322BC5308000469E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D41A312BC5308000469E53 /* AppDelegate.swift */; };
 		51D41A342BC5308000469E53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D41A332BC5308000469E53 /* SceneDelegate.swift */; };
-		51D41A362BC5308000469E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D41A352BC5308000469E53 /* ViewController.swift */; };
 		51D41A392BC5308000469E53 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51D41A382BC5308000469E53 /* Base */; };
 		51D41A3B2BC5308300469E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D41A3A2BC5308300469E53 /* Assets.xcassets */; };
 		51D41A3E2BC5308300469E53 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51D41A3D2BC5308300469E53 /* Base */; };
+		51D41A492BC53F0E00469E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D41A372BC5308000469E53 /* Main.storyboard */; };
+		51D41A4C2BC54C0100469E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D41A4B2BC54C0100469E53 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51D41A2E2BC5308000469E53 /* githubProfileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubProfileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D41A312BC5308000469E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51D41A332BC5308000469E53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51D41A352BC5308000469E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51D41A382BC5308000469E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51D41A3A2BC5308300469E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D41A3D2BC5308300469E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D41A3F2BC5308300469E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D41A4B2BC54C0100469E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A67F29ED8FC4314F7D060228 /* Pods-githubProfileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubProfileApp.debug.xcconfig"; path = "Target Support Files/Pods-githubProfileApp/Pods-githubProfileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF95CC59619672236AD2C5AE /* Pods_githubProfileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubProfileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D76309371986FDD75E97EA /* Pods-githubProfileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubProfileApp.release.xcconfig"; path = "Target Support Files/Pods-githubProfileApp/Pods-githubProfileApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D63768B219E019A539E803 /* Pods_githubProfileApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C286480942CDED1B6EEF173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF95CC59619672236AD2C5AE /* Pods_githubProfileApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		51D41A252BC5308000469E53 = {
 			isa = PBXGroup;
 			children = (
 				51D41A302BC5308000469E53 /* githubProfileApp */,
 				51D41A2F2BC5308000469E53 /* Products */,
+				F1D312A252AD57F77D0FAF8D /* Pods */,
+				3C286480942CDED1B6EEF173 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +74,22 @@
 			children = (
 				51D41A312BC5308000469E53 /* AppDelegate.swift */,
 				51D41A332BC5308000469E53 /* SceneDelegate.swift */,
-				51D41A352BC5308000469E53 /* ViewController.swift */,
+				51D41A4B2BC54C0100469E53 /* ViewController.swift */,
 				51D41A372BC5308000469E53 /* Main.storyboard */,
 				51D41A3A2BC5308300469E53 /* Assets.xcassets */,
 				51D41A3C2BC5308300469E53 /* LaunchScreen.storyboard */,
 				51D41A3F2BC5308300469E53 /* Info.plist */,
 			);
 			path = githubProfileApp;
+			sourceTree = "<group>";
+		};
+		F1D312A252AD57F77D0FAF8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A67F29ED8FC4314F7D060228 /* Pods-githubProfileApp.debug.xcconfig */,
+				C0D76309371986FDD75E97EA /* Pods-githubProfileApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51D41A422BC5308300469E53 /* Build configuration list for PBXNativeTarget "githubProfileApp" */;
 			buildPhases = (
+				6896C99C60F3203ECACA3700 /* [CP] Check Pods Manifest.lock */,
 				51D41A2A2BC5308000469E53 /* Sources */,
 				51D41A2B2BC5308000469E53 /* Frameworks */,
 				51D41A2C2BC5308000469E53 /* Resources */,
+				961068AD717BE33CFD26C915 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,17 +155,60 @@
 				51D41A3B2BC5308300469E53 /* Assets.xcassets in Resources */,
 				51D41A3E2BC5308300469E53 /* Base in Resources */,
 				51D41A392BC5308000469E53 /* Base in Resources */,
+				51D41A492BC53F0E00469E53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6896C99C60F3203ECACA3700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-githubProfileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961068AD717BE33CFD26C915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-githubProfileApp/Pods-githubProfileApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-githubProfileApp/Pods-githubProfileApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-githubProfileApp/Pods-githubProfileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51D41A2A2BC5308000469E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51D41A362BC5308000469E53 /* ViewController.swift in Sources */,
+				51D41A4C2BC54C0100469E53 /* ViewController.swift in Sources */,
 				51D41A322BC5308000469E53 /* AppDelegate.swift in Sources */,
 				51D41A342BC5308000469E53 /* SceneDelegate.swift in Sources */,
 			);
@@ -203,7 +273,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +336,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +357,7 @@
 		};
 		51D41A432BC5308300469E53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67F29ED8FC4314F7D060228 /* Pods-githubProfileApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +385,7 @@
 		};
 		51D41A442BC5308300469E53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D76309371986FDD75E97EA /* Pods-githubProfileApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
